@@ -93,12 +93,12 @@ const scrollToSection = (index) => {
         const wrapperTop = section.querySelector('.wrapper-top');
         if (wrapperTop) {
             wrapperTop.style.opacity = (i === currentSection.value) ? '1' : '0';
-            wrapperTop.style.translate = (i === currentSection.value) ? '0px 0px' : '0px -50px';
+            wrapperTop.style.translate = (i === currentSection.value) ? '0px -50px' : '0px 0px';
         }
         const wrapperBottom = section.querySelector('.wrapper-bottom');
         if (wrapperBottom) {
             wrapperBottom.style.opacity = (i === currentSection.value) ? '1' : '0';
-            wrapperBottom.style.translate = (i === currentSection.value) ? '0px 50px' : '0px 0px';
+            wrapperBottom.style.translate = (i === currentSection.value) ? '0px -50px' : '0px 0px';
         }
         const bottomTitle = section.querySelector('.bottom-title');
         if (bottomTitle) {
