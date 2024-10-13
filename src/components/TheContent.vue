@@ -533,11 +533,11 @@ onBeforeUnmount(() => {
     }
 
     .wrapper-top.watch {
-        margin-top: 0px;
+        margin-top: 100px;
     }
 
     .wrapper-bottom.watch {
-        top: 180px;
+        top: 230px;
     }
 
     .wrapper-top.ipad {
