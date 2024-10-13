@@ -533,7 +533,7 @@ onBeforeUnmount(() => {
     }
 
     .wrapper-top.watch {
-        margin-top: 50px;
+        margin-top: 0px;
     }
 
     .wrapper-bottom.watch {
