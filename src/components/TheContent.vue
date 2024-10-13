@@ -527,7 +527,7 @@ onBeforeUnmount(() => {
         z-index: 0;
         width: 540px;
         scale: 0.7;
-        top: 20px;
+        top: -30px;
         left: auto;
 
     }
